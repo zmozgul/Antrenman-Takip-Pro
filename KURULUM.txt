@@ -1,0 +1,41 @@
+ANTRENMAN PRO — iPHONE KURULUM
+
+ÖNEMLİ:
+Bu sistem bir web uygulaması (PWA) olarak tasarlandı. iPhone'da Dosyalar uygulamasından index.html'e dokunarak kullanma yöntemi DOĞRU DEĞİL.
+Ana ekrana gerçek bir uygulama gibi eklemek için dosyaların bir HTTPS web adresinde yayınlanması gerekir.
+
+EN KOLAY YOL — GitHub Pages
+1) GitHub hesabına giriş yap.
+2) Yeni bir repository (depo) oluştur. Örnek ad: antrenman-pro
+3) Bu klasördeki DOSYALARIN TAMAMINI depoya yükle:
+   - index.html
+   - manifest.webmanifest
+   - sw.js
+   - icon-180.png
+   - icon-512.png
+4) Repository Settings > Pages bölümünden GitHub Pages'i aç.
+5) Branch olarak main ve klasör olarak / (root) seç.
+6) GitHub sana bir https://... adresi verecek.
+7) iPhone'da Safari ile bu adresi aç.
+8) Safari > Paylaş > Ana Ekrana Ekle > Web Uygulaması Olarak Aç > Ekle.
+
+SONRASI:
+Ana ekrandaki "Antrenman" ikonuna bastığında uygulama ayrı bir uygulama penceresinde açılır.
+Kayıtlar cihazdaki tarayıcı depolamasında tutulur.
+Ayarlar bölümündeki Yedeği Kopyala ile veriyi yedeklemek mümkündür.
+
+BU SÜRÜMDE:
+- Gün 1 / Gün 2 profesyonel mobil panel
+- Isınma yürüyüşü ve final eğimli yürüyüş
+- Hız, eğim, süre ve km girişi
+- Canlı yürüyüş kalori tahmini
+- Her set için ayrı kg ve tekrar
+- Bir önceki antrenmanda aynı setin kg x tekrar değeri
+- Set tamamlandı işareti
+- Canlı toplam kg·rep hacmi
+- Antrenman özeti ve geçmiş
+- Makine / Dambıl / Basit hareket filtreleri
+- Kas odağı için ön / arka şematik anatomi
+- YouTube doğru form araması
+- Yerel kayıt + yedekleme
+- PWA / offline önbellek altyapısı
